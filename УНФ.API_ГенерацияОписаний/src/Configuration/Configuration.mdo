@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4131f838-a902-4814-87bb-8927d6979eb4">
+  <name>API_ГенерацияОписаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация описаний</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3880950f-0dd5-4149-958a-f9ba13a71972"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3936ed1f-607e-4836-9f98-288beae4de50"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="642c17b7-cd7c-43a2-b69a-9532c1f3ccf3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a13b5e3f-30d8-4eea-85b3-f0e4ef57bf09"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4b58e5be-2c6c-435b-94d0-5e6654533db6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d8497550-a359-4e6d-b65e-6016d4f22926"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7d90198a-7333-433b-a615-85a886125a66"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>API_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.API_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="ace9943b-3512-48f1-80bf-3b11333e987d" extendedConfigurationObject="af1b61ff-d1b9-4053-ad85-8259b6626adc">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
+  <styleItems>StyleItem.ЦветНадписейМонитораРуководителя</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ЦветШрифтаСеройПодсказки</styleItems>
+  <styleItems>StyleItem.ЗапрещенноеПравоДоступаЦвет</styleItems>
+  <styleItems>StyleItem.ЦветТекстаНевыбраннойКартинки</styleItems>
+  <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
+  <commonPictures>CommonPicture.КнопкаВыпадающегоСписка</commonPictures>
+  <commonPictures>CommonPicture.ИсторияИзменений</commonPictures>
+  <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.МенюДополнительныеФункции</commonPictures>
+  <roles>Role.API_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ИнтеграцияMistral</commonModules>
+  <constants>Constant.MistralAPIКлюч</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.СрокДействияПодарочныхСертификатов</enums>
+  <enums>Enum.СпособыПополненияЗапасов</enums>
+  <enums>Enum.ВидыМаркировки</enums>
+</mdclass:Configuration>

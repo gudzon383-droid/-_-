@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="097bc0d6-68da-4649-8195-45383fdd0648">
+  <producedTypes>
+    <managerType typeId="c0418404-2026-4db4-94e6-60d146cb0290" valueTypeId="a54f908d-ea88-494c-8008-57c5b81c85ed"/>
+    <valueManagerType typeId="2e0000b6-06a1-43ea-8f9c-fc4c08f2c1ef" valueTypeId="65419b05-8d6f-4725-8d99-c9534c965d83"/>
+    <valueKeyType typeId="e0d4e4a7-98c5-4715-9235-062165ffaf0d" valueTypeId="e8bd0606-aa44-4e12-a30b-c3e2caeb932b"/>
+  </producedTypes>
+  <name>MistralAPIКлюч</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mistral APIКлюч</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
